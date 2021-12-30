@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.display {
+    margin-bottom: 30px;
+    font-size: large;
+}
+
+.gameboard {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.square {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125px;
+    height: 125px;
+    font-size: 100px;
+}
+
+.reset {
+    margin-top: 20px;
+}
